@@ -222,3 +222,17 @@ _:-ms-input-placeholder, :root .jenca-graph {
       -ms-flex-align: center;
           align-items: center;
 }
+
+i.material-icons.app-icons{
+  font-size:55px;
+}
+
+.activity-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.activity-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
