@@ -102,14 +102,14 @@
         <!-- sub menu only visible when clicked on projects above -->
         <ul class="jenca-navigation mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
             for="projects-menu">
-          <li class="mdl-menu__item">Project One</li>
-          <li class="mdl-menu__item">Project Two</li>
-          <li disabled class="mdl-menu__item">Project Three</li>
-          <li class="mdl-menu__item">Project Four</li>
+          <li class="mdl-menu__item" data-load-url="/pages/project-one.html">Project One</li>
+          <li class="mdl-menu__item" data-load-url="/pages/project-two.html">Project Two</li>
+          <li disabled class="mdl-menu__item" data-load-url="/pages/project-three.html">Project Three</li>
+          <li class="mdl-menu__item" data-load-url="/pages/project-four.html">Project Four</li>
         </ul>
       </div>
       <main class="mdl-layout__content mdl-color--grey-100">
-        <div class="mdl-grid jenca-content">
+        <div class="mdl-grid jenca-content" id="jenca-content">
 
 
 
@@ -125,6 +125,7 @@
 
 
     <script src="https://code.getmdl.io/1.1.2/material.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
