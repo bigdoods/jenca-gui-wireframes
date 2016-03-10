@@ -1,0 +1,34 @@
+[
+	{
+		"title":"Project One",
+		"currency_entity":"&pound;",
+		"costing":3745812,
+		"issues":4,
+		"completion_date": "7th September 2016",
+		"people":[
+			{"name":"John Egan", "position":"Manager", "contact": "+441234567890"},
+			{"name":"Mark Amos", "position":"Foreman", "contact": "+441234567890"},
+			{"name":"Carl Dear", "position":"Lead Architect", "contact": "+441234567890"}
+		],
+		"apps":[
+			{"title":"App One", "description": "An app that has been installed", "icon":"translate"},
+			{"title":"App Two", "description": "An app that has been installed", "icon":"translate"}
+		]
+	},
+	{
+		"title":"Project Two",
+		"currency_entity":"&pound;",
+		"costing":3745812,
+		"issues":4,
+		"completion_date": "7th September 2016",
+		"people":[
+			{"name":"John Egan", "position":"Manager", "contact": "+441234567890"},
+			{"name":"Mark Amos", "position":"Foreman", "contact": "+441234567890"},
+			{"name":"Carl Dear", "position":"Lead Architect", "contact": "+441234567890"}
+		],
+		"apps":[
+			{"title":"App Three", "description": "An app that has been installed", "icon":"translate"},
+			{"title":"App Four", "description": "An app that has been installed", "icon":"translate"}
+		]
+	}
+]

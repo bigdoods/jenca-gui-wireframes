@@ -244,3 +244,7 @@ i.material-icons.app-icons{
   background:
     url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
 }
+
+#project-info span{
+  margin-left:30px;
+}
